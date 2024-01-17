@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f6d048;
+  }
+  
+  article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border: 5px solid #000000;
+    border-radius: 8px;
+  }
+  
+  h1, h2 {
+    color: #ff0000;
+  }
+  
+  .recipe-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .ingredients ul, .instructions ol {
+    margin: 20px 0;
+  }
+  
+  .ingredients li, .instructions li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 5px solid #000000;
+  }
