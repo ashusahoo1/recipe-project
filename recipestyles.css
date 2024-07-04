@@ -22,6 +22,9 @@
   
   h1, h2 {
     color: #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .recipe-img {
